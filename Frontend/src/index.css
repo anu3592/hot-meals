@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button{
+    @apply border border-black rounded-xl px-5 py-1
+  }
+}
+
+.give{
+  background-image: url('img/kitchen.jpg');
+}
+
+.giv{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inc{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dec{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.content{
+  width: 35rem;
+  margin: 0 3rem 0 0;
+}
+
+.content,.inputs{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputs{
+  width: 100%;
+}
+
+.buttons_container{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons{
+  margin: 2rem;
+  width: 35rem;
+}
