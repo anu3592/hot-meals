@@ -51,7 +51,7 @@ export default function CheckOutPage() {
          myState3.map(async (value, index)=>{
             let name = value.name;
             let resturant = value.restor;
-            let price = value.price;
+            let price = sum;
             let address = "";
             if(location2!="")
             {
