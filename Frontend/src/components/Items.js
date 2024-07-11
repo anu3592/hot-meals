@@ -21,7 +21,7 @@ const Items = () => {
         }, 2000);
 
         return () => clearTimeout(timer);
-    }, []);
+    }, [localStorage.getItem('search')]);
     const func = ()=>{
         fetch(`http://localhost:5000/items/${searchItem}`,{
             headers:{
