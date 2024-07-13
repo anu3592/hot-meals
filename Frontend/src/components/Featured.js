@@ -10,13 +10,13 @@ function Featured() {
     
     const sliders = [
         {
-            url: "https://source.unsplash.com/1000x500/?Pizza,Pizza"
+            url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg"
         },
         {
-            url: "https://source.unsplash.com/1000x500/?Burger,Burger"
+            url: "https://images.yummy.ph/yummy/uploads/2023/02/biryani.jpg"
         },
         {
-            url: "https://source.unsplash.com/1000x500/?Shake,juice"
+            url: "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/intro-1662064407.jpg"
         },
     ]
     const [currentInd, setCurrentInd] = useState(0);
